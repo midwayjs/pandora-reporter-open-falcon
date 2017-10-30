@@ -6,7 +6,6 @@
   "typing": "src/index",
   "scripts": {
     "build": "npm run lint && rm -rf ./dist && ./node_modules/.bin/tsc",
-    "start": "npm run build && node dist/index",
     "lint": "./node_modules/.bin/tslint --format prose -c ./tslint.json src/**/*.ts test/**/*.ts",
     "test": "npm run lint && TS_NODE_CACHE=true mocha --compilers ts:ts-node/register test/**/*.test.ts",
     "cov": "nyc mocha",
