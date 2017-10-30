@@ -20,6 +20,7 @@ export class OpenFalconReporter extends ScheduledMetricsReporter {
 
   constructor(actuatorManager?, options?) {
     super(actuatorManager);
+    options = options || {};
     this.agentUrl = options.agentUrl || DEFAULT_AGENT_URL;
   }
 
