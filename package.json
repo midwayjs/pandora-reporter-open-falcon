@@ -1,6 +1,6 @@
 {
   "name": "pandora-reporter-open-falcon",
-  "version": "0.1.0",
+  "version": "0.1.1-alpha",
   "description": "pandora reporter for open falcon",
   "main": "dist/index",
   "typing": "src/index",
@@ -50,5 +50,9 @@
       "html"
     ],
     "all": true
-  }
+  },
+  "files": [
+    "dist",
+    "src"
+  ]
 }

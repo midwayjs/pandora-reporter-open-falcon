@@ -1,5 +1,5 @@
 import {OpenFalconReporter} from '../src/index';
-import {MetricsServerManager, MetricName, BucketCounter, Gauge} from '@ali/pandora-metrics';
+import {MetricsServerManager, MetricName, BucketCounter, Gauge} from 'pandora-metrics';
 const nock = require('nock');
 
 describe('/test/reporter.test.ts', () => {
